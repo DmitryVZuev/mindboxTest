@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox", "mindboxTest\Mindbox.csproj", "{1C268B2E-F596-4716-A215-63B485EF3D73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mindbox", "mindboxTest\Mindbox.csproj", "{1C268B2E-F596-4716-A215-63B485EF3D73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFigure", "TestFigure\TestFigure.csproj", "{7460C3AC-E2CB-4DC3-8B79-358D7EB2B5FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFigure", "TestFigure\TestFigure.csproj", "{7460C3AC-E2CB-4DC3-8B79-358D7EB2B5FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40FCBA86-863A-4F9B-AE5C-AF2D25C04FC4}"
+	ProjectSection(SolutionItems) = preProject
+		test.sql = test.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
